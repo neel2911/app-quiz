@@ -1,10 +1,16 @@
 import React from "react";
+import styled from "styled-components";
+
+const WrapperContainer = styled.div`
+  height: 30px;
+  display: flex;
+`;
 
 const Footer: React.FC<{}> = () => {
   return (
-    <div>
+    <WrapperContainer>
       <h1>This is Footer</h1>
-    </div>
+    </WrapperContainer>
   );
 };
 
