@@ -1,16 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-
-const WrapperContainer = styled.div`
-  height: 30px;
-  display: flex;
-`;
+import classes from "../../styles/Footer.module.css";
 
 const Footer: React.FC<{}> = () => {
   return (
-    <WrapperContainer>
+    <footer className={classes.footer}>
       <h1>This is Footer</h1>
-    </WrapperContainer>
+    </footer>
   );
 };
 

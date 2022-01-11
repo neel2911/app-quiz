@@ -1,0 +1,14 @@
+.navigation {
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation ul li {
+  width: 100px;
+}

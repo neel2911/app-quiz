@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  align-items: center;
+}
+
+.navSection {
+  width: 200px;
+  min-height: calc(100vh - 70px);
+  background: #006abc;
+  display: inline-block;
+}
+
+.mainSection {
+  min-height: calc(100vh - 110px);
+  background: #ffffff;
+  display: inline-block;
+  width: 100%;
+}
